@@ -1,2 +1,72 @@
-# ridesharing-GreedyDP
-An efficient insertion framework called GreedyDP for shared mobility services.
+GreedyDP: A Unified Approach to Route Planning for Shared Mobility
+========================================================================
+
+This repository stores the source code of the proposed algorithm called GreedyDP and pruneGreedyDP in the following paper.
+If you use our source code or dataset, please consider citing our paper.
+
+[1] **A Unified Approach to Route Planning for Shared Mobility**
+*Yongxin Tong, Yuxiang Zeng, Zimu Zhou, Lei Chen, Jieping Ye, Ke Xu.* PVLDB, 2018. [link](http://www.vldb.org/pvldb/vol11/p1633-tong.pdf)
+
+
+Usage of the algorithms
+---------------
+
+### Environment
+
+gcc version: 7.4.0 
+
+OS: Ubuntu
+
+### Compile the algorithms: 
+
+cd algorithm && make pruneGDP GDP
+
+pruneGDP: the pruneGreedyDP algorithm in the paper
+
+GDP: the GreedyDP algorithm in the paper
+
+### Run the algorithms:
+
+./pruneGDP ./road/chengdu.node ./road/chengdu.edge ./road/chengdu.label ./road/chengdu.order ./taxi.txt ./order.txt ./res.txt
+
+./GDP ./road/chengdu.node ./road/chengdu.edge ./road/chengdu.label ./road/chengdu.order ./taxi.txt ./order.txt ./res.txt
+
+chengdu.node:  the vertex coordinates of the road network of Chengdu
+
+chengdu.edge:  the edges of the road network of Chengdu, the unit of the edge weight is second.
+
+chengdu.label: the labels for on-the-fly shortest distance/path query
+
+chengdu.order: the orders for on-the-fly shortest distance/path query
+
+taxi.txt:      the major parameters
+
+order.txt:     the input of the taxi-calling orders
+
+res.txt:       the output of the program
+
+Due to space limit, please download the files of road network (i.e., chengdu.*) by this [url](https://drive.google.com/open?id=1w6IGkA-LcW7KUe4B93v9gx4mnwNt4em5).
+For the taxi-calling orders in Chengdu city, please request for the dataset in the [website of GAIA](https://outreach.didichuxing.com/research/opendata/).
+
+
+Description of the data generators
+---------------
+
+### Environment
+
+Python: 2.7
+
+### Run the scripts
+
+genChengTaxi.py: a script to generate the varied parameters in the experiments
+
+
+
+Contributors
+------------
+- Yongxin Tong: yxtong@buaa.edu.cn
+- Yuxiang Zeng: yzengal@cse.ust.hk
+- Zimu Zhou: zzhou@tik.ee.ethz.ch
+- Lei Chen: leichen@cse.ust.hk
+- Jieping Ye: yejieping@didichuxing.com
+- Ke Xu: kexu@buaa.edu.cn
