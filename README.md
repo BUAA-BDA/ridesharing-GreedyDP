@@ -17,7 +17,7 @@ gcc/g++ version: 7.4.0
 
 OS: Ubuntu
 
-### Compile the algorithms: 
+### Compile the algorithms
 
 cd algorithm && make pruneGDP GDP
 
@@ -25,7 +25,7 @@ pruneGDP: the pruneGreedyDP algorithm in the paper
 
 GDP: the GreedyDP algorithm in the paper
 
-### Run the algorithms:
+### Run the algorithms
 
 ./pruneGDP ./road/chengdu.node ./road/chengdu.edge ./road/chengdu.label ./road/chengdu.order ./taxi.txt ./order.txt ./res.txt
 
