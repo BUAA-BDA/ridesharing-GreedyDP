@@ -5,7 +5,7 @@ This repository stores the source code of the proposed algorithm called GreedyDP
 If you use our source code or dataset, please consider citing our paper.
 
 [1] **A Unified Approach to Route Planning for Shared Mobility**
-*Yongxin Tong, Yuxiang Zeng, Zimu Zhou, Lei Chen, Jieping Ye, Ke Xu.* PVLDB, 2018. [link](http://www.vldb.org/pvldb/vol11/p1633-tong.pdf)
+*Yongxin Tong, Yuxiang Zeng, Zimu Zhou, Lei Chen, Jieping Ye, Ke Xu.* PVLDB 11(11): 1633-1646 (2018). [link](http://www.vldb.org/pvldb/vol11/p1633-tong.pdf)
 
 
 Usage of the algorithms
@@ -45,8 +45,13 @@ order.txt:     the input of the taxi-calling orders
 
 res.txt:       the output of the program
 
+##### Road network
 Due to space limit, please download the files of road network (i.e., chengdu.*) by this [url](https://drive.google.com/open?id=1w6IGkA-LcW7KUe4B93v9gx4mnwNt4em5).
+We recommend to use the hub labeling based shortest path algorithms [url](https://github.com/BUAA-BDA/sspexp_clone) to process the road network. 
+
+##### Real-world orders
 For the taxi-calling orders in Chengdu city, please request for the dataset in the [website of GAIA](https://outreach.didichuxing.com/research/opendata/).
+Here we only provide a sample file (i.e., order.txt).
 
 
 Description of the data generators
