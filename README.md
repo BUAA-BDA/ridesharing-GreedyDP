@@ -4,7 +4,7 @@ GreedyDP: A Unified Approach to Route Planning for Shared Mobility
 This repository stores the source code of the proposed algorithm called GreedyDP and pruneGreedyDP in the following paper.
 If you use our source code or dataset, please consider citing our paper.
 
-[1] **A Unified Approach to Route Planning for Shared Mobility**
+[1] **A Unified Approach to Route Planning for Shared Mobility.**
 *Yongxin Tong, Yuxiang Zeng, Zimu Zhou, Lei Chen, Jieping Ye, Ke Xu.* PVLDB 11(11): 1633-1646 (2018). [link](http://www.vldb.org/pvldb/vol11/p1633-tong.pdf)
 
 
