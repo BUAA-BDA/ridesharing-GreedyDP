@@ -13,7 +13,7 @@ Usage of the algorithms
 
 ### Environment
 
-gcc version: 7.4.0 
+gcc/g++ version: 7.4.0 
 
 OS: Ubuntu
 
