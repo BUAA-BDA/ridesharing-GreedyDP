@@ -67,11 +67,8 @@ genChengTaxi.py: a script to generate the varied parameters in the experiments
 
 
 
-Contributors
+Contact
 ------------
-- Yongxin Tong: yxtong@buaa.edu.cn
 - Yuxiang Zeng: yzengal@cse.ust.hk
-- Zimu Zhou: zzhou@tik.ee.ethz.ch
-- Lei Chen: leichen@cse.ust.hk
-- Jieping Ye: yejieping@didichuxing.com
-- Ke Xu: kexu@buaa.edu.cn
+- Yongxin Tong: yxtong@buaa.edu.cn
+
