@@ -54,7 +54,7 @@ For the taxi-calling orders in Chengdu city, please request for the dataset in t
 Here we only provide a sample file (i.e., order.txt).
 
 
-Description of the data generators
+Description of the data generator
 ---------------
 
 ### Environment
