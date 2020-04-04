@@ -84,6 +84,10 @@ genChengTaxi.py: a script to generate the varied parameters in the experiments
 
 
 
+Related other resources
+------------------------
+We have maintained a paper list of the studies on ridesharing. [link](https://github.com/BUAA-BDA/ridesharing-paperlist)
+
 Contact
 ------------
 - Yuxiang Zeng: yzengal@cse.ust.hk
