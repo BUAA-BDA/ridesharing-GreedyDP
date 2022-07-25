@@ -39,7 +39,7 @@ public:
 	
 	void resize(int _max_size) {
 		max_size = _max_size;
-		values.resize(max_size);
+		values.clear();
 		index.clear();
 		sz = 0;
 		miss = tot = 0;		
