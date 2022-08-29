@@ -24,7 +24,6 @@ private:
 	
 public:
 	cache_t(int _max_size=1024) : max_size(_max_size) {
-		values.resize(max_size);
 		sz = 0;
 		miss = tot = 0;
 	}
@@ -50,6 +49,18 @@ public:
 		miss = tot = 0;
 		index.clear();
 		values.clear();
+	}
+	
+	long long getMissAccess() {
+		return miss;
+	}
+	
+	long long getTotalAccess() {
+		return tot;
+	}
+	
+	double getMissRate() {
+		return 1.0*miss/tot;
 	}
 	
 	void insert(key_t key,value_t value);
